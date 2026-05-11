@@ -1,6 +1,6 @@
 # 📊 Dershane Gelir-Gider Analizi
 
-Python, Pandas ve SQL kullanılarak gerçekçi bir dershane senaryosu üzerinden yapılan 9 aylık finansal veri analizi projesi.
+Python, Pandas ve SQL kullanılarak gerçekçi bir dershane senaryosu üzerinden yapılan 6 aylık finansal veri analizi projesi.
 
 ---
 
