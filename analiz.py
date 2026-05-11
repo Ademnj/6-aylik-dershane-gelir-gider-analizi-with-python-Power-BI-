@@ -54,7 +54,7 @@ print(f"Toplam Yapılan Deneme Sınavı Sayısı= {len(deneme_sinavlari)}")
 print(f"Toplam Katılımcı: {deneme_sinavlari["katilimci_sayisi"].sum()}")
 print(f"Sınav Gelirleri: {deneme_sinavlari["toplam_gelir"].sum():,.0f} TL")
 
-#ÖĞRENCİ ANALİZİ
+#ÖĞRENCİ ANALİZİZ
 print("\n SInıf Türleri")
 sinif_dagilim = ogrenciler["sinif_turu"].value_counts()
 print(sinif_dagilim)
