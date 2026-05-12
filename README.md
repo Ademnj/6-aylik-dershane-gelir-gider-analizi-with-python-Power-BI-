@@ -91,9 +91,9 @@ Bir dershanenin **Ekim 2025 – Mart 2026** tarihleri arasındaki gelir ve gider
 - **Python 3.12**
 - **Pandas** — Veri temizleme & analiz
 - **NumPy** — Sayısal hesaplama
-- **Matplotlib / Seaborn** — Görselleştirme *(yakında)*
-- **SQLite** — Veri sorgulama *(yakında)*
-- **Power BI** — Dashboard *(yakında)*
+- **Matplotlib — Görselleştirme
+- **SQLite** — Veri sorgulama 
+- **Power BI** — Dashboard 
 
 ---
 
