@@ -4,6 +4,17 @@ Python, Pandas ve SQL kullanılarak gerçekçi bir dershane senaryosu üzerinden
 
 ---
 
+## 📊 Power BI Dashboard
+
+### Genel Bakış
+![Genel Bakış](gorseller/Genel_durum_raporu.png)
+
+### Gelir Raporu
+![Gelir Raporu](gorseller/Gelir_Analizi.png)
+
+### Gider & Personel
+![Gider Personel](gorseller/Gider_Personel_Analizi.png)
+
 ## 📁 Proje Yapısı
 
 ```
@@ -15,6 +26,18 @@ dershane_analiz/
 │   ├── paketler.csv
 │   ├── personel.csv
 │   └── deneme_sinavlari.csv
+├──sql_analiz.py
+├──dershane.db
+├──gorseller.py
+├──PowerBI_Dosyasi/
+│  ├── dershane_analiz.pbit
+├──Gorseller/
+│  ├── Gelir_Analizi.png
+│  ├── gelir_gider.png
+│  ├── Genel_durum_raporu.png
+│  ├── gider_kategorileri.png
+│  ├── net_kar.png
+│  ├── odeme_yontemi.png
 ├── main.py        # Veri yükleme & temizleme
 ├── analiz.py      # Analiz soruları & hesaplamalar
 └── README.md
@@ -29,7 +52,7 @@ Bir dershanenin **Ekim 2025 – Mart 2026** tarihleri arasındaki gelir ve gider
 **Veri seti:**
 - 800+ gelir kaydı
 - 6 farklı tablo
-- 9 aylık finansal veri
+- 6 aylık finansal veri
 
 ---
 
@@ -87,10 +110,9 @@ python analiz.py # Analizleri çalıştırır
 
 ---
 
-## 📌 Yapılacaklar
+## 📌 Yapılanlar
 
 - [ ] Matplotlib ile gelir-gider grafikleri
-- [ ] Seaborn ile korelasyon analizi
 - [ ] SQLite entegrasyonu
 - [ ] Power BI dashboard
 
